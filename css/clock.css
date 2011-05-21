@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+@import url(http://fonts.googleapis.com/css?family=Cabin+Sketch:bold);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #fff;
+  background: -webkit-gradient(linear, 
+     		                       left top,
+			                         right top,
+			                         color-stop(0, rgba(0,0,0,1)), 
+                               color-stop(0.5, rgba(0,0,0,.8)),
+			                         color-stop(1, rgba(0,0,0,1)));
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100%;
+}
+#clockData  
+{
+  text-align: center;
+  font-size: 128pt;
+  position:relative;
+  top:0px;
+}
+#settingsContainer {
+  position:relative;
+  top: 1800px;
+}
+.centered {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  display: box;
+  box-orient: vertical;
+  box-pack: center;
+  box-align: center;
+}
+.settings {
+  font-size: 10pt;
+}
+.slidey {
+  -webkit-transition:all 1.0s ease-in-out;
+  -transition:all 1.0s ease-in-out;
+}

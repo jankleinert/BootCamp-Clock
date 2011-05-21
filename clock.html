@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/clock.css" />  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+  <script src="scripts/clock.js"></script>
+  <title>BootCamp Clock</title>
+</head>
+<body class="centered">
+  <div id="clockData" class="centered"></div>
+  <div id="settingsLink" class="centered slidey settings">Show Settings</div>
+  <div id="settingsContainer" class="centered slidey">
+    <div id="fontSetting">
+      <label id="fontLabel">Font</label>
+      <select id="clockFont" name="clockFont">
+        <option value="Arvo" id="fontArvo">Arvo</option>
+        <option value="Cabin Sketch" id="fontCabinSketch">Cabin Sketch</option>
+        <option value="Droid Sans Mono" id="fontDroidSansMono">Droid Sans Mono</option>
+      </select>
+    </div>
+    <br>
+    <div id="hideSettingsLink" class="settings">Hide Settings</div>
+  </div> 
+</body>
+</html>

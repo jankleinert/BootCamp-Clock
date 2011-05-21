@@ -1,0 +1,22 @@
+{
+  "app_name": {
+    "message": "BootCamp Clock",
+    "description": "The name of the app"
+  },
+  "app_desc": {
+    "message": "A simple, customizable clock",
+    "description": "The short description of the app"
+  },
+  "show_settings": {
+    "message": "Show Settings",
+    "description": "The text for the Show Settings link"
+  },
+  "hide_settings": {
+    "message": "Hide Settings",
+    "description": "The text for the Hide Settings link"
+  },
+  "font_label": {
+    "message": "Font",
+    "description": "The label for the font select box"
+  }
+}
